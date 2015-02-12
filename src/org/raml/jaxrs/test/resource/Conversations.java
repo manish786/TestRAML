@@ -92,7 +92,7 @@ public interface Conversations {
         @PathParam("convId")
         String convId,
         @QueryParam("page_size")
-        @DefaultValue("20")
+        @DefaultValue("30")
         BigDecimal pageSize,
         @QueryParam("page")
         @DefaultValue("0")
